@@ -1,1 +1,5 @@
-# GAMP
+# GAMP: An open-source software of multi-GNSS precise point positioning using undifferenced and uncombined observations
+The code is from https://geodesy.noaa.gov/gps-toolbox/GAMP.htm
+
+Abstract: As the number of GNSS satellites and stations increases, GNSS data processing software should be developed that is easy to operate, efficient to run, and has a robust performance. To meet these requirements, we developed a new GNSS analysis software called GAMP (GNSS Analysis software for Multi-constellation and multi-frequency Precise positioning), which can perform multi-GNSS precise point positioning (PPP) based on undifferenced and uncombined observations. GAMP is a secondary development based on RTKLIB but with many improvements, such as cycle slip detection, receiver clock jump repair, and handling of GLONASS pseudorange inter-frequency biases. A simple, but unified format of output files, including positioning results, number of satellites, satellite elevation angles, pseudorange and carrier phase residuals, and slant Total Electron Content (sTEC), is defined for results analysis and plotting. Moreover, a new receiver-independent data exchange format called RCVEX is designed to improve computational efficiency for post-processing.  
+
